@@ -1,0 +1,144 @@
+html,
+body {
+  /* background-color: yellow; */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.row .navigasi {
+  /* background-color: aqua; */
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row .navigasi h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.row .navigasi .menu {
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 38px;
+}
+.row .navigasi .menu:hover {
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.row .navigasi .menu img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.row .navigasi .menu h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: black;
+  padding-top: 8px;
+}
+
+.row .navigasi .menu:hover h1 {
+  color: #007bff;
+}
+
+.row .navigasi button {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  width: 100px;
+}
+
+/* .row .konten {
+  background-color: green;
+} */
+
+.row .konten .isi {
+  /* background-color: red; */
+  margin-left: 20px;
+}
+
+.row .konten .isi .sortir {
+  display: flex;
+  flex-direction: row;
+}
+
+.row .konten .isi .sortir .judul {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.row .konten .isi .sortir button {
+  border: 2px solid #007bff;
+  color: #007bff;
+  margin-top: 45px;
+}
+
+.row .konten .isi .sortir button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.row .konten .isi .kolom li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  padding: 5px;
+}
+
+.row .konten .isi .baris .nomor,
+.tanggal,
+.status {
+  text-align: center;
+}
+
+.row .konten .isi .baris .jumlah {
+  text-align: right;
+}
+
+.row .konten .isi ul .nomor {
+  width: 40px;
+}
+
+.row .konten .isi ul .nama {
+  width: 200px;
+}
+
+.row .konten .isi ul .alamat {
+  width: 190px;
+}
+
+.row .konten .isi ul .bulan {
+  width: 190px;
+}
+
+.row .konten .isi ul .tanggal {
+  width: 150px;
+}
+
+.row .konten .isi ul .jumlah {
+  width: 190px;
+}
+
+.row .konten .isi ul .status {
+  width: 150px;
+}

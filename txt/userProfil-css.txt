@@ -1,0 +1,78 @@
+/* .halaman .menu {
+  background-color: rgb(255, 28, 28);
+  width: 15%;
+  height: 100%;
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+} */
+
+/* .halaman .menu .logo {
+  background-color: cyan;
+  height: 50px;
+} */
+
+/* .halaman .menu .logo .cover {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: red;
+  text-align: center;
+  color: var(--blue);
+  max-width: 100%;
+} */
+
+/* .halaman .menu .submenu {
+  background-color: purple;
+  height: 90%;
+} */
+
+/* .halaman .menu .submenu ul li {
+  background-color: bisque;
+  margin-top: 5px;
+  padding: 5px;
+} */
+
+/* .halaman .menu .submenu ul .keluar {
+  background-color: bisque;
+  margin-top: 400px;
+  position: absolute;
+  bottom: 30px;
+} */
+
+/* .halaman .menu .submenu ul .keluar a {
+  color: #dc3545;
+} */
+
+/* .halaman .menu .submenu ul .keluar:hover a {
+  color: #dc3545;
+} */
+
+/* .halaman .menu .submenu ul li :hover {
+  background-color: rgb(245, 245, 245);
+} */
+
+/* .halaman .menu .submenu ul li:hover a {
+  color: var(--blue);
+} */
+
+/* .halaman .menu .submenu ul li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: var(--black);
+  text-decoration: none;
+  padding: 5px 5px;
+  background-color: red;
+} */
+
+/* .halaman .menu .submenu ul li a label {
+  width: 100%;
+  margin: 0 0 0 5px;
+  cursor: pointer;
+} */
+
+/* .halaman .menu .submenu ul li a img {
+  width: 18px;
+  height: 18px;
+} */
