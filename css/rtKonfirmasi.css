@@ -98,27 +98,34 @@ body {
 }
 
 /* Isi Konten --------------------------------------------------------------------------------*/
-.halaman .konten .bungkus {
-  height: 80vh;
+.halaman .konten .form h3 {
+  font-size: 16px;
+  font-family: "nunito", sans-serif;
 }
 
-.halaman .konten .bungkus table {
-  width: 100%;
+.halaman .konten .form input {
+  width: 350px;
+  height: 30px;
+  margin-bottom: 20px;
   font-size: 14px;
   font-family: "nunito", sans-serif;
-  text-align: center;
-  border: 1px solid #eeeeee;
+  padding: 3px 5px;
 }
 
-.halaman .konten tr,
-td {
-  padding: 5px 0;
+.halaman .konten .form textarea {
+  width: 350px;
+  height: 200px;
+  margin-bottom: 20px;
+  resize: none;
+  font-size: 14px;
+  font-family: "nunito", sans-serif;
 }
 
-tr:nth-child(even) {
-  background-color: #eeeeee;
+.halaman .konten .form button {
+  font-size: 14px;
+  font-family: "nunito", sans-serif;
+  padding: 8px;
 }
-
 /* Phone -------------------------------------------------------------------------------*/
 @media only screen and (max-width: 319px) {
   .halaman .menu {
@@ -176,12 +183,24 @@ tr:nth-child(even) {
     font-size: 16px;
   }
 
-  .halaman .konten .bungkus {
-    overflow: scroll;
+  .halaman .konten .form h3 {
+    font-size: 12px;
   }
 
-  .halaman .konten .bungkus table {
+  .halaman .konten .form input {
+    width: 230px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .halaman .konten .form textarea {
+    width: 230px;
     font-size: 12px;
+  }
+
+  .halaman .konten .form button {
+    font-size: 12px;
+    padding: 6px;
   }
 }
 
@@ -213,8 +232,25 @@ tr:nth-child(even) {
     font-size: 18px;
   }
 
-  .halaman .konten table {
+  .halaman .konten .form h3 {
+    font-size: 14px;
+  }
+
+  .halaman .konten .form input {
+    width: 350px;
+    height: 30px;
     font-size: 12px;
+    padding: 4px 5px;
+  }
+
+  .halaman .konten .form textarea {
+    width: 350px;
+    font-size: 12px;
+  }
+
+  .halaman .konten .form button {
+    font-size: 14px;
+    padding: 8px;
   }
 }
 
@@ -234,7 +270,24 @@ tr:nth-child(even) {
     font-size: 14px;
   }
 
-  .halaman .konten table {
+  .halaman .konten .form h3 {
     font-size: 12px;
+  }
+
+  .halaman .konten .form input {
+    width: 350px;
+    height: 30px;
+    font-size: 12px;
+    padding: 4px 5px;
+  }
+
+  .halaman .konten .form textarea {
+    width: 350px;
+    font-size: 12px;
+  }
+
+  .halaman .konten .form button {
+    font-size: 12px;
+    padding: 8px;
   }
 }

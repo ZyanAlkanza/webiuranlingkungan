@@ -25,9 +25,9 @@
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/rtData.css" />
+    <link rel="stylesheet" href="css/rtKonfirmasi.css" />
 
-    <title>Data Pembayaran</title>
+    <title>Form Pembayaran</title>
   </head>
   <body>
     <div class="halaman">
@@ -80,29 +80,34 @@
       <!-- Konten -->
       <div class="konten">
         <div class="judul">
-          <h1>Data Pembayaran</h1>
+          <h1>Form Pembayaran</h1>
         </div>
-        <div class="bungkus">
-          <table>
-            <tr>
-              <th>No</th>
-              <th>Nama</th>
-              <th>Alamat</th>
-              <th>Pembayaran Bulan</th>
-              <th>Tanggal Pembayaran</th>
-              <th>Jumlah Pembayaran</th>
-              <th>Status</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Zyan Alkanza</td>
-              <td>Puri Kencana Blok D7 RT. 009/018</td>
-              <td>Januari</td>
-              <td>18/01/2023</td>
-              <td>Rp. 200.000</td>
-              <td>Sudah</td>
-            </tr>
-          </table>
+
+        <div class="form">
+          <div class="input-nama">
+            <h3>Pembayaran Atas Nama</h3>
+            <input class="form-control" type="text" placeholder="a.n. " />
+          </div>
+          <div class="input-tanggal">
+            <h3>Tanggal Pembayaran</h3>
+            <input class="form-control" type="date" />
+          </div>
+          <div class="input-jumlah">
+            <h3>Jumlah Pembayaran</h3>
+            <input class="form-control" type="number" placeholder="Rp." />
+          </div>
+          <div class="input-bukti">
+            <h3>Bukti Pembayaran</h3>
+            <input class="form-control" type="file" />
+          </div>
+          <div class="input-keterangan">
+            <h3>Keterangan</h3>
+            <textarea name="" id="" maxlength="300"></textarea>
+          </div>
+
+          <a href="http://localhost/webiuran/index.php">
+            <button type="submit" class="btn btn-primary">Konfirmasi</button>
+          </a>
         </div>
       </div>
     </div>

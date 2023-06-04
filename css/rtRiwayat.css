@@ -98,11 +98,7 @@ body {
 }
 
 /* Isi Konten --------------------------------------------------------------------------------*/
-.halaman .konten .bungkus {
-  height: 80vh;
-}
-
-.halaman .konten .bungkus table {
+.halaman .konten table {
   width: 100%;
   font-size: 14px;
   font-family: "nunito", sans-serif;
@@ -110,7 +106,7 @@ body {
   border: 1px solid #eeeeee;
 }
 
-.halaman .konten tr,
+.halaman .konten th,
 td {
   padding: 5px 0;
 }
@@ -176,11 +172,7 @@ tr:nth-child(even) {
     font-size: 16px;
   }
 
-  .halaman .konten .bungkus {
-    overflow: scroll;
-  }
-
-  .halaman .konten .bungkus table {
+  .halaman .konten table {
     font-size: 12px;
   }
 }
