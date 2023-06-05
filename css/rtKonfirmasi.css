@@ -51,7 +51,7 @@ body {
 
 .halaman .menu ul li span {
   font-family: "nunito", sans-serif;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .halaman .menu ul li {
@@ -63,6 +63,10 @@ body {
 .halaman .menu ul li:hover {
   color: #007bff;
   background: #eeeeee;
+}
+
+.halaman .menu ul li i {
+  width: 25px;
 }
 
 .halaman .menu a {
