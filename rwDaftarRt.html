@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@300;400;600;700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/rwDaftarRt.css" />
+
+    <title>Daftar RT</title>
+  </head>
+  <body>
+    <div class="halaman">
+      <div class="menu">
+        <!-- Logo -->
+        <div class="logo">
+          <i class="fa-sharp fa-solid fa-money-bill-wave"></i> &nbsp;
+          <h1>Iuran Lingkungan</h1>
+        </div>
+
+        <!-- Menu -->
+        <ul>
+          <a href="http://localhost/webiuranlingkungan/rwData.html">
+            <li>
+              <i class="fa-solid fa-file-circle-check"></i>
+              <span>Data Pembayaran</span>
+            </li>
+          </a>
+
+          <a href="http://localhost/webiuranlingkungan/rwDaftarRt.html">
+            <li>
+              <i class="fa-solid fa-user-group"></i>
+              <span>Daftar RT</span>
+            </li>
+          </a>
+
+          <a href="http://localhost/webiuranlingkungan/login.html">
+            <li class="keluar">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <span>Keluar</span>
+            </li>
+          </a>
+        </ul>
+      </div>
+
+      <!-- Konten -->
+      <div class="konten">
+        <div class="judul">
+          <h1>Daftar RT</h1>
+          <div class="tombol">
+            <a href="http://localhost/webiuranlingkungan/#.html">
+              <button class="btn btn-primary">Tambah</button>
+            </a>
+          </div>
+        </div>
+          <table>
+            <tr>
+              <th>No</th>
+              <th>Nama</th>
+              <th>Alamat</th>
+              <th>Telepon</th>
+              <th>Aksi</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Zyan Alkanza</td>
+              <td>Puri Kencana Blok D7 RT. 009/018</td>
+              <td>089653534708</td>
+              <td class="aksi">
+                <div class="tombol">
+                  <a
+                    href="http://localhost/webiuranlingkungan/#.html"
+                  >
+                    <button class="btn btn-warning">Edit</button>
+                  </a>
+                </div>
+                <div class="tombol">
+                  <a
+                    href="http://localhost/webiuranlingkungan/#.html"
+                  >
+                    <button class="btn btn-danger">Hapus</button>
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
